@@ -1,3 +1,28 @@
-.colorContenedor{
+.colorContenedor {
     background-color: #353A40;
+}
+
+.imagen-fondo {
+    height: 1800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: #242323;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 1%, 24%, 0.322), hsla(0, 2%, 18%, 0.342), #413f3f52, hsla(50, 4%, 31%, 0.308)), url(../img/ba1.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.color-de-las-letras {
+    color: white;
+    text-align: right;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-items:  center;
+    justify-content:  center;
 }

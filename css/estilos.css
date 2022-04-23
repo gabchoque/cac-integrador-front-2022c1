@@ -32,8 +32,24 @@ el hijo acompañara al padre, dependen del tipo de posicion*/
     transform: translate(-10%, -50%);
     position: absolute;
 }
-. columnas{
-    display: flex;
-    justify-content:space-evenly;
+.contenedorColor{
+    background: #353A40;
+
+}
+.letrah{
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.colorcito{
+    color: antiquewhite;
+    background-color: #96c93e;
     
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #1e5170;
+    color: white;
+  }

@@ -34,7 +34,11 @@ el hijo acompañara al padre, dependen del tipo de posicion*/
 }
 .contenedorColor{
     background: #353A40;
-
+}
+.dimensiones{
+    padding: 0px;
+   
+    
 }
 .letrah{
     color: rgb(255, 255, 255);
